@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Google Font for Seeds of Solidarity Website */
+
+p {
+    font-family:'sourceserifpro';
+}
+
+@font-face{
+    font-family: 'sourceserifpro';
+    src: url(fonts/SourceSerifPro-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+    
+}
+@font-face{
+    font-family: 'sourceserifpro';
+    src: url(fonts/SourceSerifPro-Bold.ttf);
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face{
+    font-family: 'sourceserifpro';
+    src: url(fonts/SourceSerifPro-Black.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face{
+    font-family: 'sourceserifpro';
+    src: url(fonts/SourceSerifPro-Black.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'sourceserifpro';
+    src: url(fonts/SourceSerifPro-Black.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face{
+    font-family: 'sourceserifpro';
+    src: url(fonts/SourceSerifPro-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'sourceserifpro';
+    src: url(fonts/SourceSerifPro-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+    
+}
+p{
+    font-family: 'sourceserifpro';
+    font-weight: 100;
+}
+
+h1{
+    font-family: 'sourceserifpro';
+    font-weight: 100;
+}
+
+h2{
+    font-family: 'sourceserifpro';
+    font-weight: 400;
+}
+h3{
+    font-family: 'sourceserifpro';
+    font-weight: 100;
+}
+h4{
+    font-family: 'sourceserifpro';
+    font-weight: 100;
+}
+ul{
+    font-family: 'sourceserifpro';
+    font-weight: 100;
+}
+section{
+    font-family: 'sourceserifpro';
+    font-weight: 100;  
+}
+.nav-link{
+    font-family: 'sourceserifpro';
+    font-weight: 100;
+}
+
+.display-3{
+    color:rgba(57,42,0,1.00);
+}

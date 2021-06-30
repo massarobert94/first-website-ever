@@ -1,0 +1,218 @@
+/* Dropdown Button */
+.dropbtn {
+  background-color: #a37800;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 140px;
+  height: 66px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #A27800;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{background-color: #4B3700;
+    
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #4B3700;}
+
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.logo img{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+nav a{
+    width:100px;
+    display:block;
+    padding:20px 15px;
+    text-decoration: none;
+    font-family:Arial;
+    color: #FED460;
+    text-align: center;    
+}
+/* Change color of nav item on hover */
+.nav-item:hover .nav-link{background-color: #4B3700;}
+
+.nav-link{
+    width: 140px;
+	height: 66px;
+	background-color: #a37800;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: center;
+    color: white;
+    
+}
+nav ul {
+    margin-left: 9rem;
+
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  background: url("images_theme2/wheat.gif");
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.col-1 {
+    background: url("Layer_3.png");
+    background-size: cover;
+    width: 369px;
+	height: 168px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+.col-2 {
+    background: url("Layer_5.png");
+    background-size: cover;
+    width: 369px;
+	height: 168px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+.col-3 {
+    background: url("Layer_7.png");
+    background-size: cover;
+    width: 369px;
+	height: 168px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.h1{
+    padding-top: 6rem;
+}
+.aboutpic{
+    float: right;
+}
+/* Calendar styling */
+
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #a37800;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #a37800;
+  color: white !important
+}
+
+button{
+    background-color: #a37800;
+    width: 300px;
+	height: 100px;
+
+}
